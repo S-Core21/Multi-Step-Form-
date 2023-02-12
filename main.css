@@ -368,3 +368,102 @@ button:hover{
 .thanks{
     display: none;
 }
+
+@media (max-width:460px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: hsl(229, 24%, 87%);
+        width: 100%;
+        overflow-x: hidden;
+    }
+    nav{
+        width: 100%;
+        background-size: cover;
+        background-position:  top 0% right 30% bottom -20%;
+        height: 20vh;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    nav label{
+        font-size: 18px;
+    }
+    nav ul{
+        flex-direction: row;
+        gap: 1rem;
+    }
+    nav small{
+        display: none;
+    }
+    nav p{
+        display: none;
+    }
+    main{
+        width: 100%;
+        background-color: white;
+        padding:  2rem;
+        transform: translateY(-2rem);
+
+    }
+    .plan article{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .plan article div{
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .plan div img{
+        width: 40px;
+        margin-top: -2rem;
+    }
+    main h1{
+        font-size: 25px;
+    }
+    main p{
+        font-size: 16px;
+    }
+    main button{
+        width: 100px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .personal label{
+        font-size: 22px;
+    }
+    .personal input{
+        font-size: 14px;
+        width: 100%;
+    }
+    .mo_yr{
+        width: 100%;
+        padding: 5px;
+        flex-direction: row;
+    }
+    .mo_yr strong{
+        font-size: 16px;
+    }
+    .ads section{
+        gap: 1rem;
+    }
+    .ads h2{
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .ads small{
+        font-size: 16px;
+    }
+    .finish h2{
+        font-size: 22px;
+        margin-top: -1rem;
+    }
+}
