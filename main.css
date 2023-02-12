@@ -466,4 +466,7 @@ button:hover{
         font-size: 22px;
         margin-top: -1rem;
     }
+    .class{
+        font-size: 12px;
+    }
 }
